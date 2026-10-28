@@ -22,19 +22,17 @@ class Samochod
     }
 
     
-        public void wyswietl()
-    {
-        Console.WriteLine($"Samochó marki {Marka}, rok produkcji {rokProdukcji}");
-    }
+     
     
     static void Main(string[] args)
     {
         Samochod samochod1 = new Samochod();
         Samochod samochod2 = new Samochod("BMW", 2023);
-        samochod1.wyswietl();
-        samochod2.wyswietl();
         
-        
+        Console.WriteLine($"Samochód marki {samochod1.Marka}, rok produkcji {samochod1.rokProdukcji}");
+        Console.WriteLine($"Samochód marki {samochod2.Marka}, rok produkcji {samochod2.rokProdukcji}");
+
+
 
     }
 }
