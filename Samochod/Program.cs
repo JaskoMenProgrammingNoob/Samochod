@@ -15,10 +15,10 @@ class Samochod
         ustawDane(marka, rokprodukcji);
     }
 
-    public void ustawDane(string Marka, int rokProdukcji)
+    public void ustawDane(string marka, int rokprodukcji)
     {
-        this.Marka = Marka;
-        this.rokProdukcji = rokProdukcji;
+        Marka = marka;
+        rokProdukcji = rokprodukcji;
     }
 
     
